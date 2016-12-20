@@ -5,7 +5,7 @@ package cn.edu.bjtu.weibo.service.impl;
  * @author Liu Jinfeng
  *
  */
-public interface LoginServiceImpl implements LoginService{
+public class LoginServiceImpl implements LoginService{
 	/**
 	 * 
 	 * @param usename
@@ -13,7 +13,7 @@ public interface LoginServiceImpl implements LoginService{
 	 * @return
 	 */
 	String getLoginUserId(String usename, String password){
-    return null;
+    		return null;
   }
   
 	/**
@@ -23,6 +23,6 @@ public interface LoginServiceImpl implements LoginService{
 	 * @return
 	 */
 	boolean isUserExisted(String username, String password){
-    return true;
+    		return true;
   }
 }
