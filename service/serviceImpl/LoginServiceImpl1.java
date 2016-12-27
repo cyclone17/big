@@ -55,7 +55,7 @@ public class LoginServiceImpl implements LoginService{
 			
 			Context context=new InitialContext();
 			
-			ds=(DataSource)context.lookup("java:comp/env/sql");//需要改变数据库名
+			ds=(DataSource)context.lookup("java:comp/env/sql");//脨猫脪陋赂脛卤盲脢媒戮脻驴芒脙没
 		    conn=ds.getConnection();
 		} catch (NamingException e) {
 			// TODO Auto-generated catch block
